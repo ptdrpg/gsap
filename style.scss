@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quantico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.hero{
+    flex-direction: column;
+}
+
+.blocks{
+    position: absolute;
+    font-size: 100px;
+    top: 225px;
+    .block1{
+        color: red;
+    }
+}
+
+.representation{
+    img{
+        height: 121.8vh;
+        position: absolute;
+        top: -145px;
+        right: 140px;
+        opacity: 2;
+        border-left: rgb(99, 98, 98) 3px solid;
+    }    
+}
+
+.button{
+    position: absolute;
+    top: 300px;
+    right: 25px;
+    border: red solid 1px;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.fond{
+    font-size: 190px;
+    margin-top: -50px;
+    h1{
+        -webkit-text-stroke: 2px rgb(78, 78, 78);
+        color: #222;
+    }
+}
